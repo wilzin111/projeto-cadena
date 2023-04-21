@@ -1,0 +1,234 @@
+.section-2 {
+    width: 1440px;
+    height: 962px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 80px;
+    gap: 64px;
+}
+
+.container-sec-2 {
+    width: 1280px;
+    height: 770.3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 52px;
+}
+
+.title-sec-2 {
+    width: 709px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.title-sec-2 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 58px;
+}
+
+.container-cards {
+    width: 1280px;
+    height: 660px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 28px;
+}
+
+.container-mini-cards {
+    width: 844px;
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 28px;
+}
+
+.container-mini-card-cima {
+    width: 844px;
+    height: 316px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 29px;
+}
+
+.mini-card-1 {
+    width: 408px;
+    height: 316px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 65px 20px;
+    border-radius: 24px;
+}
+
+.mini-card-1 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    align-items: center;
+    text-align: center;
+}
+
+.mini-card-1 p {
+    width: 277px;
+    height: 81px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.mini-card-2 {
+    width: 407px;
+    height: 316px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 54px;
+    gap: 28px;
+    border-radius: 24px;
+}
+
+.mini-card-2 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    align-items: center;
+    text-align: center;
+}
+
+.mini-card-2 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-mini-card-baixo {
+    width: 844px;
+    height: 316px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 29px;
+}
+
+.mini-card-3 {
+    width: 408px;
+    height: 316px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 87px;
+    gap: 19px;
+    border-radius: 24px;
+}
+
+.mini-card-3 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    align-items: center;
+    text-align: center;
+}
+
+.mini-card-3 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    align-items: center;
+    text-align: center;
+}
+
+.mini-card-4 {
+    width: 407px;
+    height: 316px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 69px;
+    gap: 16px;
+    border-radius: 24px;
+}
+
+.mini-card-4 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    align-items: center;
+    text-align: center;
+}
+
+.mini-card-4 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    align-items: center;
+    text-align: center;
+}
+
+.big-card {
+    width: 408px;
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 65px;
+    border-radius: 24px;
+}
+
+.big-card h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 22px;
+}
+
+.big-card p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 100px;
+}
