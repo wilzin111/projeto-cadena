@@ -4,11 +4,9 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 1440px;
+.body {
     background-color: #060809;
 }
-
 
 /* cores */
 .text-white {
@@ -23,6 +21,6 @@ body {
     color: #E7E7E7;
 }
 
-.bg-mini-cads {
+.bg-cads {
     background-color: #1B1C20;
 }

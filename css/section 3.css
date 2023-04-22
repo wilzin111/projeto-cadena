@@ -1,0 +1,97 @@
+/* section 3 */
+@media screen and (min-width: 1440px) {
+
+    .section-3 {
+        width: 1440px;
+        height: 863px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 96px 0px;
+    }
+
+    .container-sec-3 {
+        width: 1280px;
+        height: 671px;
+        border-radius: 26px;
+        background-image: url(../imagens/cards.svg);
+        background-repeat: no-repeat;
+    }
+
+    .container-text-btn {
+        width: 478px;
+        height: 438px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        margin-top: 109px;
+        margin-left: 32px;
+        gap: 120px;
+    }
+
+    .container-text {
+        width: 478px;
+        height: 260px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        /* gap: 24px; */
+    }
+
+    .title-sec-3 {
+        width: 432px;
+        height: 116px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 32px;
+    }
+
+    .title-sec-3 h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 43px;
+        line-height: 58px;
+
+    }
+
+    .paragrafo {
+        width: 478px;
+        height: 120px;
+        display: flex;
+        align-items: center;
+    }
+
+    .paragrafo p {
+        color: #b8b8b8;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 30px;
+
+    }
+
+    .btn {
+        width: 163px;
+        height: 56px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 15px 26px 16px 28px;
+        background-color: #FFFFFF;
+        border-radius: 405px;
+        gap: 13px;
+    }
+
+    .btn p {
+        color: #1B1C20;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
