@@ -6,24 +6,23 @@
 
 :root {
     --bg-body: #060809;
-    --bg-button: #ffffff;
-    --bg-box: #1b1c20;
-    --bg-section-1: #060809;
-    --bg-btn-new: #7f56d9;
-    --bg-btn-secundary: #ffffff;
+    --bg-btn-singup-login-sec3: #ffffff;
+    --bg-cards: #1b1c20;
+    --bg-header-sec1-footer1: #060809;
+    --bg-btn-new-fundo-e-text: #7f56d9;
     --bg-btn-section-1: #f9f5ff;
-    --logo-fill: white;
+    --troca-cor-letras: white;
 
     --color-purple: #712fff;
-    --color-title: #ffffff;
+    --color-h1: #ffffff;
     --color-p: #e7e7e7;
-    --color-p-section-2: #e7e7e7;
-    --color-p-section-3: #b8b8b8;
-    --color-btn: #1b1c20;
-    --color-btn-new: #f9f5ff;
+    --color-p-sec2: #e7e7e7;
+    --color-p-sec3: #b8b8b8;
+    --color-text-btn: #1b1c20;
+    --color-btn-new-fundo-e-text: #f9f5ff;
 
-    --box-shadow:
-        0px 1.98641px 3.97282px rgba(68, 55, 0, 0.01),
+    --fill-color-redes-sociais-desktop: #B8B8B8;
+    --fill-color-redes-sociais-mobile: #FFFFFF --box-shadow: 0px 1.98641px 3.97282px rgba(68, 55, 0, 0.01),
         0px 99.3206px 174.804px rgba(68, 55, 0, 0.02),
         0px 45.6875px 80.4497px rgba(68, 55, 0, 0.01),
         0px 25.8233px 45.6875px rgba(68, 55, 0, 0.01),
@@ -35,39 +34,44 @@
 
 .dark-mode:root {
     --bg-body: #060809;
-    --bg-button: #ffffff;
-    --bg-box: #1b1c20;
-    --bg-section-1: #060809;
-    --bg-btn-new: #7f56d9;
-    --bg-btn-secundary: #ffffff;
+    --bg-btn-singup-login-sec3: #ffffff;
+    --bg-cards: #1b1c20;
+    --bg-header-sec1-footer1: #060809;
+    --bg-btn-new-fundo-e-text: #7f56d9;
     --bg-btn-section-1: #f9f5ff;
-    --logo-fill: white;
+    --troca-cor-letras: white;
 
     --color-purple: #712fff;
-    --color-title: #ffffff;
+    --color-h1: #ffffff;
     --color-p: #e7e7e7;
-    --color-p-section-2: #e7e7e7;
-    --color-p-section-3: #b8b8b8;
-    --color-btn: #1b1c20;
-    --color-btn-new: #f9f5ff;
+    --color-p-sec2: #e7e7e7;
+    --color-p-sec3: #b8b8b8;
+    --color-text-btn: #1b1c20;
+    --color-btn-new-fundo-e-text: #f9f5ff;
+
+    --fill-color-redes-sociais-desktop: #B8B8B8;
+    --fill-color-redes-sociais-mobile: #FFFFFF
 }
 
 .light-mode:root {
     --bg-body: #ffffff;
-    --bg-button: #0F0F14;
-    --bg-box: #ffffff;
-    --bg-section-1: #faf8f5;
-    --bg-btn-new: #ffffff;
-    --bg-btn-secundary: #0f0f14;
-    --logo-fill: black;
+    --bg-btn-singup-login-sec3: #0F0F14;
+    --bg-cards: #ffffff;
+    --bg-header-sec1-footer1: #faf8f5;
+    --bg-btn-new-fundo-e-text: #ffffff;
+    --troca-cor-letras: black;
 
-    --color-title: #1b1c20;
+    --color-h1: #1b1c20;
     --color-p: #383a47;
-    --color-p-section-2: #797b89;
-    --color-p-section-3: #797b89;
-    --color-btn: #ffffff;
-    --color-btn-new: #6941c6;
+    --color-p-sec2: #797b89;
+    --color-p-sec3: #797b89;
+    --color-text-btn: #ffffff;
+    --color-btn-new-fundo-e-text: #6941c6;
+
+    --fill-color-redes-sociais-desktop: #383A47;
+    --fill-color-redes-sociais-mobile: #383A47
 }
+
 
 body,
 header {
@@ -85,7 +89,7 @@ span {
         position: fixed;
         width: 375px;
         height: auto;
-        background-color: var(--bg-section-1);
+        background-color: var(--bg-header-sec1-footer1);
     }
 
     .container-h {
@@ -114,7 +118,7 @@ span {
     }
 
     .muda-cor-logo {
-        fill: var(--logo-fill);
+        fill: var(--troca-cor-letras);
     }
 
     .cd-btn-togle-mode {
@@ -191,7 +195,7 @@ span {
         align-items: center;
         padding: 0 32px 70px;
         gap: 64px;
-        background-color: var(--bg-section-1);
+        background-color: var(--bg-header-sec1-footer1);
     }
 
     .container-sec-1 {
@@ -237,16 +241,17 @@ span {
         padding: 2px 10px;
         border-radius: 16px;
         border: none;
-        background-color: var(--bg-btn-new);
-        color: var(--color-btn-new);
+        background-color: var(--bg-btn-new-fundo-e-text);
+        color: var(--color-btn-new-fundo-e-text);
     }
+
 
     .btn-new a {
         background-color: var(--bg-btn-section-1);
     }
 
     .head-sec-1 a {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
@@ -268,12 +273,12 @@ span {
 
     .text-sec-1 h1 {
 
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 700;
         font-size: 32px;
         line-height: 43px;
-        color: var(--color-title);
+        color: var(--color-h1);
     }
 
     /* section1-paragrafo */
@@ -281,7 +286,7 @@ span {
     .paragrafo-sec-1 p {
         width: 335px;
         height: 60px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -344,7 +349,7 @@ span {
         align-items: center;
         justify-content: center;
         padding-bottom: 83px;
-        background-color: var(--bg-section-1);
+        background-color: var(--bg-header-sec1-footer1);
     }
 
     .container-footer {
@@ -360,11 +365,13 @@ span {
     .title-footer p {
         width: 270px;
         height: 28px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 500;
         font-size: 15px;
         line-height: 27px;
+        letter-spacing: -0.09px;
+        color: var(--color-h1);
     }
 
     .container-logos {
@@ -438,12 +445,15 @@ span {
     }
 
     .title-sec-2 h1 {
-        font-family: Arial, Helvetica, sans-serif;
+        width: 335px;
+        height: 32px;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 500;
         font-size: 24px;
         line-height: 32px;
-        color: var(--color-title);
+        letter-spacing: -1.824px;
+        color: var(--color-h1);
     }
 
     .container-cards {
@@ -485,31 +495,31 @@ span {
         align-items: center;
         padding: 40px 65px 20px;
         border-radius: 24px;
-        background-color: var(--bg-box);
+        background-color: var(--bg-cards);
         box-shadow: var(--box-shadow);
     }
 
     .mini-card-1 h1 {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 400;
         font-size: 24px;
         line-height: 32px;
         align-items: center;
         text-align: center;
-        color: var(--color-title);
+        color: var(--color-h1);
     }
 
     .mini-card-1 p {
         width: 277px;
         height: 81px;
         text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 27px;
-        color: var(--color-p-section-2);
+        color: var(--color-p-sec2);
     }
 
     .mini-card-2 {
@@ -521,34 +531,34 @@ span {
         padding: 40px 54px;
         gap: 28px;
         border-radius: 24px;
-        background: var(--bg-box);
+        background: var(--bg-cards);
         box-shadow: var(--box-shadow);
     }
 
     .mini-card-2 h1 {
-        font-family: Arial, Helvetica, sans-serif;
+        width: 237px;
+        height: 34px;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 400;
-        font-size: 25px;
+        font-size: 24px;
         line-height: 34px;
         align-items: center;
         text-align: center;
-        color: var(--color-title);
+        color: var(--color-h1);
     }
 
     .mini-card-2 p {
-        width: 237px;
-        height: 34px;
-        font-family: Arial, Helvetica, sans-serif;
+        width: 299px;
+        height: 81px;
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
-        font-size: 17px;
+        font-size: 18px;
         line-height: 27px;
         align-items: center;
         text-align: center;
-        display: flex;
-        flex-direction: column;
-        color: var(--color-p-section-2);
+        color: var(--color-p-sec2);
     }
 
     .container-mini-card-baixo {
@@ -570,30 +580,34 @@ span {
         padding: 40px 87px;
         gap: 19px;
         border-radius: 24px;
-        background: var(--bg-box);
+        background: var(--bg-cards);
         box-shadow: var(--box-shadow);
     }
 
     .mini-card-3 h1 {
-        font-family: Arial, Helvetica, sans-serif;
+        width: 193px;
+        height: 32px;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
+        font-size: 23px;
         line-height: 32px;
         align-items: center;
         text-align: center;
-        color: var(--color-title);
+        color: var(--color-h1);
     }
 
     .mini-card-3 p {
-        font-family: Arial, Helvetica, sans-serif;
+        width: 233px;
+        height: 81px;
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 27px;
         align-items: center;
         text-align: center;
-        color: var(--color-p-section-2);
+        color: var(--color-p-sec2);
     }
 
     .mini-card-4 {
@@ -605,30 +619,30 @@ span {
         padding: 40px 69px;
         gap: 16px;
         border-radius: 24px;
-        background: var(--bg-box);
+        background: var(--bg-cards);
         box-shadow: var(--box-shadow);
     }
 
     .mini-card-4 h1 {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 400;
         font-size: 24px;
         line-height: 32px;
         align-items: center;
         text-align: center;
-        color: var(--color-title);
+        color: var(--color-h1);
     }
 
     .mini-card-4 p {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 27px;
         align-items: center;
         text-align: center;
-        color: var(--color-p-section-2);
+        color: var(--color-p-sec2);
     }
 
     .big-card {
@@ -639,12 +653,12 @@ span {
         align-items: center;
         padding: 40px 65px;
         border-radius: 24px;
-        background: var(--bg-box);
+        background: var(--bg-cards);
         box-shadow: var(--box-shadow);
     }
 
     .big-card h1 {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 400;
         font-size: 25px;
@@ -652,20 +666,22 @@ span {
         align-items: center;
         text-align: center;
         padding-bottom: 22px;
-        color: var(--color-title);
+        color: var(--color-h1);
     }
 
     .big-card p {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 27px;
         align-items: center;
         text-align: center;
-        padding-bottom: 100px;
-        color: var(--color-p-section-2);
+        padding-bottom: 85px;
+        color: var(--color-p-sec2);
     }
+
+
 
     /* SECTION 3 */
 
@@ -682,7 +698,7 @@ span {
         width: 335px;
         height: auto;
         border-radius: 26px;
-        background-color: var(--bg-box);
+        background-color: var(--bg-cards);
         box-shadow: var(--box-shadow);
     }
 
@@ -717,12 +733,12 @@ span {
     }
 
     .title-sec-3 h1 {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 700;
         font-size: 24px;
         line-height: 32px;
-        color: var(--color-title);
+        color: var(--color-h1);
     }
 
     .paragrafo {
@@ -734,12 +750,12 @@ span {
     }
 
     .paragrafo p {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 30px;
-        color: var(--color-p-section-3);
+        color: var(--color-p-sec3);
     }
 
     .btn {
@@ -750,17 +766,17 @@ span {
         align-items: center;
         padding: 15px 26px 16px 28px;
         margin-bottom: 0;
-        background: var(--bg-button);
+        background: var(--bg-btn-singup-login-sec3);
         border-radius: 405px;
         gap: 20px;
-        color: var(--color-btn);
+        color: var(--color-text-btn);
     }
 
     .btn p {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 400;
-        font-size: 15px;
+        font-size: 16px;
         line-height: 24px;
     }
 
@@ -810,8 +826,6 @@ span {
     }
 
     .redes-sociais {
-        width: 320px;
-        height: 24px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -822,28 +836,9 @@ span {
         order: 2;
     }
 
-    .twiter-b {
-        display: block;
-    }
+    .rede-social {
+        fill: var(--fill-color-redes-sociais-mobile);
 
-    .inkedin-b {
-        display: block;
-    }
-
-    .facebook-b {
-        display: block;
-    }
-
-    .twiter {
-        display: none;
-    }
-
-    .inkedin {
-        display: none;
-    }
-
-    .facebook {
-        display: none;
     }
 
     .copyright {
@@ -854,12 +849,12 @@ span {
     }
 
     .copyright p {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
-        color: var(--color-title)
+        color: var(--color-h1);
     }
 }
 
@@ -919,13 +914,13 @@ span {
 
     .menu-cadena a {
         display: block;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
         text-decoration: none;
-        color: var(--color-title);
+        color: var(--color-h1);
     }
 
     .btn-login {
@@ -942,7 +937,7 @@ span {
         width: 82px;
         height: 44px;
         display: block;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
@@ -950,16 +945,15 @@ span {
         border-radius: 8px;
         border: none;
         cursor: pointer;
-        background-color: var(--bg-section-1);
-        color: var(--color-title);
-
+        background-color: var(--bg-header-sec1-footer1);
+        color: var(--color-h1);
     }
 
     .btn-sign-up {
         width: 93px;
         height: 44px;
         display: block;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
@@ -968,8 +962,8 @@ span {
         box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
         border-radius: 8px;
         cursor: pointer;
-        color: var(--color-btn);
-        background-color: var(--bg-button);
+        color: var(--color-text-btn);
+        background-color: var(--bg-btn-singup-login-sec3);
     }
 
     /* SECTION 1 */
@@ -1029,7 +1023,7 @@ span {
     }
 
     .head-sec-1 a {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
@@ -1050,13 +1044,11 @@ span {
 
     .text-sec-1 h1 {
 
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 700;
-        font-size: 34px;
+        font-size: 44px;
         line-height: 59px;
-        padding-right: 90px;
-        box-sizing: border-box;
     }
 
     /* section1-paragrafo */
@@ -1064,7 +1056,7 @@ span {
     .paragrafo-sec-1 p {
         width: 480px;
         height: 60px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
@@ -1133,7 +1125,7 @@ span {
         justify-content: center;
         align-items: center;
         padding: 50px 0px;
-        background-color: var(--bg-section-1);
+        background-color: var(--bg-header-sec1-footer1);
     }
 
     .container-footer {
@@ -1149,7 +1141,7 @@ span {
     .title-footer p {
         width: 270px;
         height: 28px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 500;
         font-size: 15px;
@@ -1218,15 +1210,17 @@ span {
     }
 
     .title-sec-2 {
-        width: 709px;
+        width: 708.64px;
         height: 58px;
         display: flex;
-        align-items: center;
-        text-align: center;
+        /* align-items: center;
+        text-align: center; */
     }
 
     .title-sec-2 h1 {
-        font-family: Arial, Helvetica, sans-serif;
+        width: 708.64px;
+        height: 58px;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 500;
         font-size: 43px;
@@ -1275,10 +1269,10 @@ span {
     }
 
     .mini-card-1 h1 {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
+        font-size: 23px;
         line-height: 32px;
         align-items: center;
         text-align: center;
@@ -1288,10 +1282,10 @@ span {
         width: 277px;
         height: 81px;
         text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 27px;
     }
 
@@ -1302,24 +1296,26 @@ span {
         flex-direction: column;
         align-items: center;
         padding: 40px 54px;
-        gap: 28px;
+        /* gap: 28px; */
         border-radius: 24px;
     }
 
     .mini-card-2 h1 {
-        font-family: Arial, Helvetica, sans-serif;
+        width: 237px;
+        height: 34px;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 400;
-        font-size: 25px;
+        font-size: 24px;
         line-height: 34px;
         align-items: center;
         text-align: center;
     }
 
     .mini-card-2 p {
-        width: 237px;
-        height: 34px;
-        font-family: Arial, Helvetica, sans-serif;
+        width: 299px;
+        height: 81px;
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 17px;
@@ -1341,8 +1337,8 @@ span {
     }
 
     .mini-card-3 {
-        width: 408px;
-        height: 316px;
+        width: 406px;
+        height: 315px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1352,20 +1348,24 @@ span {
     }
 
     .mini-card-3 h1 {
-        font-family: Arial, Helvetica, sans-serif;
+        width: 237px;
+        height: 34px;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
-        line-height: 32px;
+        font-size: 24.8301px;
+        line-height: 34px;
         align-items: center;
         text-align: center;
     }
 
     .mini-card-3 p {
-        font-family: Arial, Helvetica, sans-serif;
+        width: 299px;
+        height: 81px;
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 17px;
         line-height: 27px;
         align-items: center;
         text-align: center;
@@ -1383,20 +1383,20 @@ span {
     }
 
     .mini-card-4 h1 {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
+        font-size: 23.8369px;
         line-height: 32px;
         align-items: center;
         text-align: center;
     }
 
     .mini-card-4 p {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 27px;
         align-items: center;
         text-align: center;
@@ -1413,10 +1413,10 @@ span {
     }
 
     .big-card h1 {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 400;
-        font-size: 25px;
+        font-size: 24px;
         line-height: 34px;
         align-items: center;
         text-align: center;
@@ -1424,10 +1424,10 @@ span {
     }
 
     .big-card p {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 27px;
         align-items: center;
         text-align: center;
@@ -1448,7 +1448,7 @@ span {
         width: 1280px;
         height: 671px;
         border-radius: 26px;
-        background: var(--bg-box) url(../imagens/cards.svg);
+        background: var(--bg-cards) url(../imagens/cards.svg);
         background-repeat: no-repeat;
     }
 
@@ -1483,7 +1483,7 @@ span {
     }
 
     .title-sec-3 h1 {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 700;
         font-size: 43px;
@@ -1499,10 +1499,10 @@ span {
     }
 
     .paragrafo p {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 400;
-        font-size: 19px;
+        font-size: 20px;
         line-height: 30px;
 
     }
@@ -1519,10 +1519,10 @@ span {
     }
 
     .btn p {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 400;
-        font-size: 15px;
+        font-size: 16px;
         line-height: 24px;
     }
 
@@ -1563,8 +1563,6 @@ span {
     }
 
     .redes-sociais {
-        width: 320px;
-        height: 24px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -1574,34 +1572,11 @@ span {
         order: 1;
     }
 
-    .twiter-b {
-        display: none;
-    }
 
-    .inkedin-b {
-        display: none;
-    }
 
-    .facebook-b {
-        display: none;
+    .rede-social {
+        fill: var(--fill-color-redes-sociais-mobile);
     }
-
-    .twiter {
-        display: block;
-    }
-
-    .inkedin {
-        display: block;
-    }
-
-    .facebook {
-        display: block;
-    }
-
-    .container-cadena {
-        order: 2;
-    }
-
 
     .copyright {
         width: 348px;
@@ -1611,10 +1586,10 @@ span {
     }
 
     .copyright p {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 24px;
     }
 }
