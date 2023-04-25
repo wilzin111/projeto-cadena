@@ -1,6 +1,5 @@
-/* secition 2 */
+/* SECTION 2 */
 @media screen and (min-width: 1440px) {
-
     .section-2 {
         width: 1440px;
         height: 962px;
@@ -22,15 +21,17 @@
     }
 
     .title-sec-2 {
-        width: 709px;
+        width: 708.64px;
         height: 58px;
         display: flex;
-        align-items: center;
-        text-align: center;
+        /* align-items: center;
+    text-align: center; */
     }
 
     .title-sec-2 h1 {
-        font-family: Arial, Helvetica, sans-serif;
+        width: 708.64px;
+        height: 58px;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 500;
         font-size: 43px;
@@ -79,10 +80,10 @@
     }
 
     .mini-card-1 h1 {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
+        font-size: 23px;
         line-height: 32px;
         align-items: center;
         text-align: center;
@@ -92,10 +93,10 @@
         width: 277px;
         height: 81px;
         text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 27px;
     }
 
@@ -106,24 +107,26 @@
         flex-direction: column;
         align-items: center;
         padding: 40px 54px;
-        gap: 28px;
+        /* gap: 28px; */
         border-radius: 24px;
     }
 
     .mini-card-2 h1 {
-        font-family: Arial, Helvetica, sans-serif;
+        width: 237px;
+        height: 34px;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 400;
-        font-size: 25px;
+        font-size: 24px;
         line-height: 34px;
         align-items: center;
         text-align: center;
     }
 
     .mini-card-2 p {
-        width: 237px;
-        height: 34px;
-        font-family: Arial, Helvetica, sans-serif;
+        width: 299px;
+        height: 81px;
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 17px;
@@ -145,8 +148,8 @@
     }
 
     .mini-card-3 {
-        width: 408px;
-        height: 316px;
+        width: 406px;
+        height: 315px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -156,20 +159,24 @@
     }
 
     .mini-card-3 h1 {
-        font-family: Arial, Helvetica, sans-serif;
+        width: 237px;
+        height: 34px;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
-        line-height: 32px;
+        font-size: 24.8301px;
+        line-height: 34px;
         align-items: center;
         text-align: center;
     }
 
     .mini-card-3 p {
-        font-family: Arial, Helvetica, sans-serif;
+        width: 299px;
+        height: 81px;
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 17px;
         line-height: 27px;
         align-items: center;
         text-align: center;
@@ -187,20 +194,20 @@
     }
 
     .mini-card-4 h1 {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
+        font-size: 23.8369px;
         line-height: 32px;
         align-items: center;
         text-align: center;
     }
 
     .mini-card-4 p {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 27px;
         align-items: center;
         text-align: center;
@@ -217,10 +224,10 @@
     }
 
     .big-card h1 {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 400;
-        font-size: 25px;
+        font-size: 24px;
         line-height: 34px;
         align-items: center;
         text-align: center;
@@ -228,10 +235,10 @@
     }
 
     .big-card p {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 27px;
         align-items: center;
         text-align: center;

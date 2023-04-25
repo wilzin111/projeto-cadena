@@ -1,4 +1,4 @@
-/* FOOTER */
+/* FOOTER 1 */
 @media screen and (min-width: 1440px) {
     .footer-1 {
         width: 1440px;
@@ -8,6 +8,7 @@
         justify-content: center;
         align-items: center;
         padding: 50px 0px;
+        background-color: var(--bg-header-sec1-footer1);
     }
 
     .container-footer {
@@ -23,7 +24,7 @@
     .title-footer p {
         width: 270px;
         height: 28px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 500;
         font-size: 15px;
@@ -37,5 +38,35 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .stripe {
+        width: 75px;
+        height: 31px;
+        order: 1;
+    }
+
+    .orfium {
+        width: 131px;
+        height: 25px;
+        order: 2;
+    }
+
+    .kinsta {
+        width: 88px;
+        height: 17px;
+        order: 3;
+    }
+
+    .nowports {
+        width: 149px;
+        height: 25px;
+        order: 5;
+    }
+
+    .bankable {
+        width: 134px;
+        height: 29px;
+        order: 4;
     }
 }

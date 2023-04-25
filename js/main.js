@@ -1,6 +1,6 @@
 var html = document.querySelector("html");
-var darkMode = document.querySelector(".cd-togle-dark-mode");
-var lightMode = document.querySelector(".cd-togle-light-mode");
+var darkMode = document.querySelector(".muda-dark-modo");
+var lightMode = document.querySelector(".muda-light-modo");
 
 darkMode.addEventListener("click", function () {
     html.classList.remove("light-mode");

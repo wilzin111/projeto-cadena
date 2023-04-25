@@ -1,6 +1,5 @@
-/* section-1 */
+/* SECTION 1 */
 @media screen and (min-width: 1440px) {
-
     .section-1 {
         width: 1440px;
         height: 767px;
@@ -43,8 +42,6 @@
         gap: 12px;
         border-radius: 16px;
         border: none;
-        background-color: #F9F5FF;
-
     }
 
     .btn-new {
@@ -56,18 +53,15 @@
         padding: 2px 10px;
         border-radius: 16px;
         border: none;
-        background-color: #7F56D9;
-        color: #F9F5FF;
     }
 
     .head-sec-1 a {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 20px;
         text-decoration: none;
-        color: #7F56D9;
     }
 
     .setinha {
@@ -83,13 +77,11 @@
 
     .text-sec-1 h1 {
 
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 700;
-        font-size: 34px;
+        font-size: 44px;
         line-height: 59px;
-        padding-right: 90px;
-        box-sizing: border-box;
     }
 
     /* section1-paragrafo */
@@ -97,11 +89,17 @@
     .paragrafo-sec-1 p {
         width: 480px;
         height: 60px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
         line-height: 30px;
+    }
+
+    .cards-sec-1 img {
+        width: 605px;
+        height: 607px;
+        display: block;
     }
 
     /* section1-botoes */
@@ -125,6 +123,11 @@
         border: none;
     }
 
+    .btn-apple-store img {
+        width: 134px;
+        height: 31px;
+    }
+
     .btn-play-store {
         width: 178px;
         height: 60px;
@@ -132,6 +135,11 @@
         justify-content: center;
         border-radius: 13px;
         border: none;
+    }
+
+    .btn-play-store img {
+        width: 148px;
+        height: 31px;
     }
 
     /* cads da direita */

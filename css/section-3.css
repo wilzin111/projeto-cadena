@@ -1,6 +1,5 @@
-/* section 3 */
+/* SECTION 3 */
 @media screen and (min-width: 1440px) {
-
     .section-3 {
         width: 1440px;
         height: 863px;
@@ -14,7 +13,7 @@
         width: 1280px;
         height: 671px;
         border-radius: 26px;
-        background-image: url(../imagens/cards.svg);
+        background: var(--bg-cards) url(../imagens/cards.svg);
         background-repeat: no-repeat;
     }
 
@@ -49,7 +48,7 @@
     }
 
     .title-sec-3 h1 {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 700;
         font-size: 43px;
@@ -65,11 +64,10 @@
     }
 
     .paragrafo p {
-        color: #b8b8b8;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 400;
-        font-size: 19px;
+        font-size: 20px;
         line-height: 30px;
 
     }
@@ -81,17 +79,19 @@
         flex-direction: row;
         align-items: center;
         padding: 15px 26px 16px 28px;
-        background-color: #FFFFFF;
         border-radius: 405px;
-        gap: 13px;
+        gap: 20px;
     }
 
     .btn p {
-        color: #1B1C20;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Satoshi';
         font-style: normal;
         font-weight: 400;
-        font-size: 15px;
+        font-size: 16px;
         line-height: 24px;
+    }
+
+    .container-img-sec-3 {
+        display: none;
     }
 }
